@@ -1,0 +1,35 @@
+title: Arrow Media
+#-------------------------
+name: Λrrow
+#-------------------------
+description: Media section for the Arrow Library
+#-------------------------
+author: The Λrrow Authors
+keywords: functional-programming, kotlin-library, blog, media, core, fx, optics, meta, incubator,  monads, monad-transformers, functional-data-structure, kotlin, fp-types, adt, free-monads, tagless-final, mtl, for-comprehension, category-theory
+#-------------------------
+url: https://media.arrow-kt.io
+#-------------------------
+twitter_handle: "@arrow_kt"
+#-------------------------
+google_analytics: "UA-18433785-18"
+#-------------------------
+gitter_room: "arrow-kt/Lobby"
+#-------------------------
+sass:
+    style: compressed
+#-------------------------
+plugins:
+  - 'jekyll/tagging'
+
+# Tags plugin configuration
+tag_page_layout: tags
+tag_page_dir: /media/tags
+tag_permalink_style: pretty
+ignored_tags: []
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile', '.bundle']
+
+
+collections:
+  books:
+    output: true
