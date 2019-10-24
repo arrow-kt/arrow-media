@@ -1,0 +1,14 @@
+<section id="books">
+  <div class="wrapper">
+    <h3>Books</h3>
+    Recommended reading for learning Functional Programming in Kotlin from Arrow maintainers, users, and the Kotlin ecosystem:
+    <div class="books-flex">
+      {% for book in site.books | sort: "name" %}
+      <a class="book-item" href="{{ book.link }}">
+        <h4>{{ book.name }}</h4>
+        <img src="{{ book.image }}" alt="book image">
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
