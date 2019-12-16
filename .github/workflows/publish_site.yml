@@ -24,6 +24,7 @@ jobs:
         BUNDLE_GEMFILE: content/Gemfile
         JEKYLL_ENV: production
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_CLOUDFRONT_ID: ${{ secrets.AWS_CLOUDFRONT_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         S3_BUCKET: ${{ secrets.S3_BUCKET }}
       run: |
@@ -40,3 +41,4 @@ jobs:
         bundle exec jekyll build -s content -d content/_site
         echo "Publish in S3..."
         aws s3 sync content/_site s3://$S3_BUCKET > aws_sync_jekyll.log
+        aws cloudfront create-invalidation --distribution-id $AWS_CLOUDFRONT_ID --paths "/*" > aws_sync_jekyll.log
