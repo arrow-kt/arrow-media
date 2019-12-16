@@ -39,5 +39,4 @@ jobs:
         bundle install --gemfile $BUNDLE_GEMFILE --path vendor/bundle
         bundle exec jekyll build -s content -d content/_site
         echo "Publish in S3..."
-        # Waiting for AWS configuration to active this part:
         aws s3 sync content/_site s3://$S3_BUCKET > aws_sync_jekyll.log
