@@ -1,12 +1,10 @@
 nav:
-    - title: Media
-      url: /media
 
     - title: Github
-      url: https://github.com/arrow-kt/arrow
+      url: https://github.com/arrow-kt/arrow-media
 
     - title: License
-      url: https://github.com/arrow-kt/arrow/blob/master/LICENSE
+      url: https://github.com/arrow-kt/arrow-media/blob/master/LICENSE
 
 
 icon-filter:
