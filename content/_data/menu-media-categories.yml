@@ -1,20 +1,20 @@
 tab:
     - title: All Media
       category: allPosts
-      url: /media/
+      url: /
 
     - title: Tutorials
       category: tutorials
-      url: /media/tutorials
+      url: /tutorials
 
     - title: Conferences
       category: conferences
-      url: /media/conferences
+      url: /conferences
 
     - title: Videos
       category: videos
-      url: /media/videos
+      url: /videos
 
     - title: Articles
       category: articles
-      url: /media/articles
+      url: /articles
