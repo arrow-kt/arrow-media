@@ -1,0 +1,43 @@
+  
+name: Publish Site
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  publish_site:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up JDK 1.8
+      uses: actions/setup-java@v1
+      with:
+        java-version: 1.8
+        architecture: x64
+    - name: Deploy
+      env:
+        JAVA_OPTS: -Xms512m -Xmx1024m
+        BUNDLE_GEMFILE: content/Gemfile
+        JEKYLL_ENV: production
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        S3_BUCKET: ${{ secrets.S3_BUCKET }}
+      run: |
+        set -ex
+        sudo pip install awscli
+        aws --version
+        sudo apt-get update
+        sudo apt-get install ruby-dev
+        sudo gem install bundler --force
+        sudo gem update --system
+        gem --version
+        echo "$( gem list | grep bundler )"
+        bundle install --gemfile $BUNDLE_GEMFILE --path vendor/bundle
+        bundle exec jekyll build -s content -d content/_site
+        echo "Publish in S3..."
+        # Waiting for AWS configuration to active this part:
+        aws s3 sync content/_site s3://$S3_BUCKET > aws_sync_jekyll.log
