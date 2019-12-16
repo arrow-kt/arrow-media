@@ -2,6 +2,6 @@
 layout: media_tutorials
 title: Tutorials
 category: tutorials
-permalink: /media/tutorials/
+permalink: /tutorials/
 tags: [tutorials]
 ---
