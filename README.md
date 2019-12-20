@@ -1,6 +1,6 @@
 # Arrow-media
 
-Here you will find showcasing tutorials, conference presentations, and other Arrow-related content.
+A showcase of tutorials, conference presentations, and other Arrow-related content.
 
 ## Adding a Post
 
@@ -12,12 +12,12 @@ category: articles
 tags: [core]
 link: https://www.spantree.net/blog/2017/09/15/kotlin-exception-handling-with-kategory.html
 ```
-Bellow are described the fields to fill
+The fields to fill are described below:
 
 ### title
 The title of the post
 ### icon
-There are 4 different icon to choose
+There are 4 different icons to choose from
 ##### Article
 `icon: /img/icon-article.svg`
 ![article icon](/img/icon/icon-article.png)
@@ -33,9 +33,9 @@ There are 4 different icon to choose
 
 ### header-image
 The image the post will show.
-Set to `/img/blog-image-header.png` if you don´t have any image.
+Set to `/img/blog-image-header.png` if you don´t have an image.
 ### category
-Here it can specify the category of the post
+Specify the category of the post
 ##### Tutorials
 category: tutorials
 ##### Conferences
@@ -45,8 +45,8 @@ category: videos
 ##### Articles
 category: articles
 ### tags
-Here you can specify the Arrow module or modules with which the post is related: `core`, `fx`, `optics`, `incubator`, or `meta`
-You can add more than one tag as follows
+Here you can specify the Arrow module or modules to which the post is related: `core`, `fx`, `optics`, `incubator`, or `meta`
+You can add more than one tag as follows:
 `tags: [core, fx]`
 ### link
 The link to the post
