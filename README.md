@@ -16,17 +16,6 @@ The fields to fill are described below:
 
 ### title
 The title of the post
-### icon
-There are 4 different icons to choose from
-##### Article
-`icon: /img/icon-article.svg`
-##### Podcast
-`icon: /img/icon-podcast.svg`
-##### Talk
-`icon: /img/icon-talk.svg`
-##### Video
-`icon: /img/icon-video.svg`
-
 ### header-image
 The image the post will show.
 Set to `/img/blog-image-header.png` if you don´t have an image.
@@ -40,12 +29,16 @@ category: conferences
 category: videos
 ##### Articles
 category: articles
+##### SlideDecks
+category: slidedecks
 ### tags
 Here you can specify the Arrow module or modules to which the post is related: `core`, `fx`, `optics`, `incubator`, or `meta`
 You can add more than one tag as follows:
 `tags: [core, fx]`
 ### link
 The link to the post
+### event
+In case of a conference, please, indicate the event. For instance: `event: Lambda World, Cádiz, Spain`
 
 
 ## Books section

@@ -5,11 +5,7 @@
 {% assign meta = '#CD151D' %}
 <article class="article-card">
   <div class="article-card-header">
-    {% if post.icon %}
-    <div class="icon">
-      <img src="{{ post.icon }}" alt="post icon">
-    </div>
-    {% endif %}
+    {% include _article-card-icon.html %}
 
     {% if post.link %}
     <a href="{{ post.link }}" target="_blank" rel="noopener noreferrer" class="header-container">

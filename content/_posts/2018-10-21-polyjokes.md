@@ -1,6 +1,5 @@
 ---
 title: Polyjokes  -  A polymorphic approach using Arrow
-icon: /img/icon-article.svg
 header-image: /img/blog-image-header.png
 category: articles
 tags: [core]

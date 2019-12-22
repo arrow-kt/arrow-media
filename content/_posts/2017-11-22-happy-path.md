@@ -1,6 +1,5 @@
 ---
 title: "Happy path: Kotlin + Actors + Arrow"
-icon: /img/icon-article.svg
 header-image: https://cdn-images-1.medium.com/max/600/1*kF_bpeNe0THMssFEa2enYA.jpeg
 category: articles
 tag: [core]

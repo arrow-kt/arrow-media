@@ -1,6 +1,5 @@
 ---
 title: Effect polymorphism with Arrow FX
-icon: /img/icon-article.svg
 header-image: https://blog.frankel.ch/assets/resources/imperative-functional-programming/arrow-brand.svg
 category: articles
 tags: [fx]

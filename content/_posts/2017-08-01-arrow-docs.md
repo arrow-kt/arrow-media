@@ -1,6 +1,5 @@
 ---
 title: Arrow Docs
-icon: /img/icon-article.svg
 header-image: /img/twitter-card.png
 category: articles
 tags: [core, optics, fx, incubator, meta]

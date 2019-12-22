@@ -1,6 +1,5 @@
 ---
 title: Modular functional programming with Kotlin
-icon: /img/icon-article.svg
 header-image: https://blog.frankel.ch/assets/resources/imperative-functional-programming/arrow-brand.svg
 category: articles
 tag: [core]

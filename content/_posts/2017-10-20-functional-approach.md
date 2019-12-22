@@ -1,8 +1,7 @@
 ---
 title: Functional approach to Android architecture using Kotlin
-icon: /img/icon-talk.svg
 header-image: https://img.youtube.com/vi/qGef3sFAIxU/maxresdefault.jpg
-category: videos
+category: conferences
 tags: [core]
 link: https://www.youtube.com/watch?v=qGef3sFAIxU
 event: Mobilization 7, Łódź
