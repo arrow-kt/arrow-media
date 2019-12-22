@@ -20,16 +20,12 @@ The title of the post
 There are 4 different icons to choose from
 ##### Article
 `icon: /img/icon-article.svg`
-![article icon](/img/icon/icon-article.png)
 ##### Podcast
 `icon: /img/icon-podcast.svg`
-![podcast icon](/img/icon/icon-podcast.png)
 ##### Talk
 `icon: /img/icon-talk.svg`
-![talk icon](/img/icon/icon-talk.png)
 ##### Video
 `icon: /img/icon-video.svg`
-![video icon](/img/icon/icon-video.png)
 
 ### header-image
 The image the post will show.
