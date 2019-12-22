@@ -4,10 +4,17 @@ A showcase of tutorials, conference presentations, and other Arrow-related conte
 
 ## Adding a resource
 
+The file needs to be placed in the `content/_posts/` folder and the date will be indicated in the filename:
+
+```
+yyyy-mm-dd-<name>.md
+```
+
+An example of file content:
+
 ```
 ---
 title: Handling exceptions in Arrow
-icon: /img/icon-article.svg
 header-image: /img/blog-image-header.png
 category: articles
 tags: [core]
