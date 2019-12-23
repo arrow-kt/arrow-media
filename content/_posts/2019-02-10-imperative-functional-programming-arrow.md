@@ -1,6 +1,5 @@
 ---
 title: From Imperative to Functional Programming using Arrow
-icon: /img/icon-article.svg
 header-image: https://blog.frankel.ch/assets/resources/imperative-functional-programming/arrow-brand.svg
 category: tutorials
 tags: [core, fx]

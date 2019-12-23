@@ -1,6 +1,5 @@
 ---
 title: Android Functional Validation
-icon: /img/icon-video.svg
 header-image: https://i.vimeocdn.com/video/713283357_1280x720.jpg
 category: tutorials
 tags: [core]

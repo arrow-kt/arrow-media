@@ -1,0 +1,14 @@
+{% if post.category == 'videos' %}
+{% assign icon-image = '/img/icon-video.svg' %}
+{% elsif post.category == 'conferences' %}
+{% assign icon-image = '/img/icon-video.svg' %}
+{% elsif post.category == 'articles' %}
+{% assign icon-image = '/img/icon-article.svg' %}
+{% elsif post.category == 'tutorials' %}
+{% assign icon-image = '/img/icon-article.svg' %}
+{% elsif post.category == 'slidedecks' %}
+{% assign icon-image = '/img/icon-article.svg' %}
+{% endif %}
+<div class="icon">
+  <img src="{{ icon-image }}" alt="">
+</div>

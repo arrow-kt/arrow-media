@@ -1,8 +1,7 @@
 ---
 title: Introduction to Kotlin Arrow by Jacob Bass
-icon: /img/icon-talk.svg
 header-image: https://img.youtube.com/vi/tM2wEI-e80E/maxresdefault.jpg
-category: videos
+category: conferences
 tags: [core]
 link: https://www.youtube.com/watch?v=tM2wEI-e80E
 event: Kotlin Meetup, Sydney

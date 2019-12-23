@@ -1,8 +1,7 @@
 ---
 title: Simple Dependency Management in Kotlin
-icon: /img/icon-talk.svg
 header-image: https://img.youtube.com/vi/CR5h2Wq1yPE/maxresdefault.jpg
-category: videos
+category: conferences
 tags: [core]
 link: https://www.youtube.com/watch?v=CR5h2Wq1yPE
 event: AndroidTO, Toronto

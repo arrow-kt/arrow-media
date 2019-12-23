@@ -2,50 +2,68 @@
 
 A showcase of tutorials, conference presentations, and other Arrow-related content.
 
-## Adding a Post
+## Adding a resource
+
+The file needs to be placed in the `content/_posts/` folder and the date will be indicated in the filename:
 
 ```
+yyyy-mm-dd-<name>.md
+```
+
+An example of file content:
+
+```
+---
 title: Handling exceptions in Arrow
-icon: /img/icon-article.svg
 header-image: /img/blog-image-header.png
 category: articles
 tags: [core]
 link: https://www.spantree.net/blog/2017/09/15/kotlin-exception-handling-with-kategory.html
+---
+Description of the resource.
 ```
 The fields to fill are described below:
 
 ### title
-The title of the post
-### icon
-There are 4 different icons to choose from
-##### Article
-`icon: /img/icon-article.svg`
-##### Podcast
-`icon: /img/icon-podcast.svg`
-##### Talk
-`icon: /img/icon-talk.svg`
-##### Video
-`icon: /img/icon-video.svg`
-
+The title of the resource
 ### header-image
-The image the post will show.
+The image the resource will show.
 Set to `/img/blog-image-header.png` if you don´t have an image.
 ### category
-Specify the category of the post
+Specify the category of the resource
 ##### Tutorials
+```
 category: tutorials
+```
 ##### Conferences
+```
 category: conferences
+```
 ##### Videos
+```
 category: videos
+```
 ##### Articles
+```
 category: articles
+```
+##### SlideDecks
+
+If a talk wasn't recorded, you can add the slide deck with this category:
+
+```
+category: slidedecks
+```
+
+If the talk was recorded, please, choose `category: conferences` and add the link of the corresponding slide deck in the description.
 ### tags
-Here you can specify the Arrow module or modules to which the post is related: `core`, `fx`, `optics`, `incubator`, or `meta`
+Here you can specify the Arrow module or modules to which the resource is related: `core`, `fx`, `optics`, `incubator`, or `meta`
 You can add more than one tag as follows:
 `tags: [core, fx]`
 ### link
-The link to the post
+The link to the resource
+### event
+In case of a conference, please, indicate the event. For instance: `event: Lambda World, Cádiz, Spain`
 
 
 ## Books section

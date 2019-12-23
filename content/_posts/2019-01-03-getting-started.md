@@ -1,6 +1,5 @@
 ---
 title: "Getting started with FP in Kotlin and Arrow: Typeclasses"
-icon: /img/icon-article.svg
 header-image: /img/blog-image-header.png
 category: articles
 tags: [core, fx]

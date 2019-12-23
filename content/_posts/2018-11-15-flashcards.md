@@ -1,6 +1,5 @@
 ---
 title: Arrow Tiny Cards Flashcards
-icon: /img/icon-article.svg
 header-image: https://d17u0960v8a9bp.cloudfront.net/press/tinycards-iOS-icon.jpg
 category: articles
 tags: [core, optics, fx, incubator]

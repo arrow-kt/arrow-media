@@ -18,3 +18,7 @@ tab:
     - title: Articles
       category: articles
       url: /articles
+
+    - title: SlideDecks
+      category: slidedecks
+      url: /slidedecks

@@ -1,6 +1,5 @@
 ---
 title: Immutable Conversations - Past and Future of Arrow
-icon: /img/icon-video.svg
 header-image: https://img.youtube.com/vi/YtchNDjQuTU/maxresdefault.jpg
 category: videos
 tags: [core, fx]
