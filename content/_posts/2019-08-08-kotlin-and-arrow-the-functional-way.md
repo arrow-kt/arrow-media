@@ -1,5 +1,5 @@
 ---
-title: Kotlin and Arrow: the functional way
+title: "Kotlin and Arrow: the functional way"
 header-image: https://pbs.twimg.com/media/D8xN-4jWkAAceCW.jpg
 category: conferences
 tags: [core]
