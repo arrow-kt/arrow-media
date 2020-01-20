@@ -7,3 +7,38 @@
     box-sizing: border-box;
     max-width: $bp-xlarge;
 }
+
+// Github stars modal
+#star-modal {
+    transition: transform $base-duration;
+    transform: scale(0);
+    border-radius: 2px;
+    position: fixed;
+    bottom: 70px;
+    right: ($base-point-grid * 2);
+    padding: 12px 11px 8px 12px;
+    background: $white;
+    color: $github-modal-text-color;
+    box-shadow: $box-shadow-button;
+    z-index: 100;
+    min-width: $github-modal-width;
+
+    &.in {
+        transform: scale(1);
+    }
+
+    &.out {
+        transform: translateX(400px);
+    }
+    p {
+        font-size: $base-font-size;
+        margin: 0 0 15px;
+    }
+    & .close-modal {
+        cursor: pointer;
+        position: absolute;
+        top: 12px;
+        right: 6px;
+        padding: 0 $base-point-grid;
+    }
+}

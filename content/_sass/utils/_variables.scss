@@ -22,6 +22,7 @@ $core-color: #2D9DFF;
 $fx-color: #807373;
 $search-background: $brand-secondary;
 $search-hover: lighten($search-background, 2%);
+$github-modal-text-color: #263238;
 
 // Typography
 // -----------------------------------------------
@@ -44,6 +45,7 @@ $article-font-size: 16px;
 // Sizes
 // -----------------------------------------------
 $base-point-grid: 8px;
+$github-modal-width: 178px;
 // Animation
 // -----------------------------------------------
 $base-duration: 250ms;
@@ -57,7 +59,9 @@ $bp-small: 480px;
 $bp-medium: 768px;
 $bp-large: 992px;
 $bp-xlarge: 1140px;
-
+// Box Shadow
+//-----------------------------------------------
+$box-shadow-button: rgba(0,0,0,0.3) 0 2px 8px 0;
 // Grid
 // -----------------------------------------------
 $column-1: (1/12*100%);
