@@ -9,11 +9,14 @@ keywords: functional-programming, kotlin-library, blog, media, core, fx, optics,
 #-------------------------
 url: https://media.arrow-kt.io
 #-------------------------
+github_repo: https://github.com/arrow-kt/arrow
+#-------------------------
 twitter_handle: "@arrow_kt"
 #-------------------------
 google_analytics: "UA-18433785-18"
 #-------------------------
-gitter_room: "arrow-kt/Lobby"
+slack_kotlin_channel: "https://slack.kotlinlang.org"
+slack_arrow_channel: "https://kotlinlang.slack.com/archives/C5UPMM0A0"
 #-------------------------
 sass:
     style: compressed
