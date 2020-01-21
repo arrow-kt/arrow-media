@@ -58,7 +58,7 @@
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
-  transition: all .3s ease;
+  transition: right .3s ease;
   box-shadow: $box-shadow-button;
   background: $white;
   font-weight: $font-semibold;
@@ -71,4 +71,51 @@
       color: $github-modal-text-color;
     }
   }
+
+  .slack-head-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.hide-slack-icon {
+  font-size: $base-font-size;
+  cursor: pointer;
+  width: $text-box-icon-size;
+  height: $text-box-icon-size;
+  border-radius: ($base-point-grid * 3);
+  margin-right: 2px;
+  padding: 2px;
+
+  &:hover {
+    background-color: lighten($brand-tertiary, 15%);
+  }
+}
+
+.show-slack-icon {
+  color: $github-modal-text-color;
+  font-weight: $font-semibold;
+  font-size: $base-font-size;
+  cursor: pointer;
+  position: fixed;
+  right: -80px;
+  bottom: 30px;
+  background-color: lighten($brand-tertiary, 15%);
+  border-radius: ($base-point-grid * 3) 0 0 ($base-point-grid * 3);
+  transition: padding .2s ease, right .2s ease, left .2s ease;
+  padding: 5px ($base-point-grid * 2);
+  box-shadow: 0 1px 1px 0 rgba($brand-tertiary,.3),0 1px 3px 1px rgba($brand-tertiary,.15);
+
+  &:hover {
+    padding-right: ($base-point-grid * 3);
+  }
+}
+
+.show-slack-icon-visible {
+  right: 0;
+}
+
+.slack-text-out {
+  right: -200px;
 }
