@@ -14,9 +14,9 @@
     transform: scale(0);
     border-radius: 2px;
     position: fixed;
-    bottom: 70px;
+    bottom: 77px;
     right: ($base-point-grid * 2);
-    padding: 12px 11px 8px 12px;
+    padding: $base-point-grid;
     background: $white;
     color: $github-modal-text-color;
     box-shadow: $box-shadow-button;
@@ -36,9 +36,18 @@
     }
     & .close-modal {
         cursor: pointer;
-        position: absolute;
-        top: 12px;
-        right: 6px;
-        padding: 0 $base-point-grid;
+        padding: 1px 10.5px;
+        width: $text-box-icon-size;
+        height: $text-box-icon-size;
+        border-radius: ($base-point-grid * 3);
+
+        &:hover {
+          background-color: lighten($brand-tertiary, 15%);
+        }
+    }
+
+    .stars-text-line {
+      display: flex;
+      justify-content: space-between;
     }
 }
