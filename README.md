@@ -24,47 +24,14 @@ Description of the resource.
 ```
 The fields to fill are described below:
 
-### title
-The title of the resource
-### header-image
-The image the resource will show.
-Set to `/img/blog-image-header.png` if you don´t have an image.
-### category
-Specify the category of the resource
-##### Tutorials
-```
-category: tutorials
-```
-##### Conferences
-```
-category: conferences
-```
-##### Videos
-```
-category: videos
-```
-##### Articles
-```
-category: articles
-```
-##### SlideDecks
-
-If a talk wasn't recorded, you can add the slide deck with this category:
-
-```
-category: slidedecks
-```
-
-If the talk was recorded, please, choose `category: conferences` and add the link of the corresponding slide deck in the description.
-### tags
-Here you can specify the Arrow module or modules to which the resource is related: `core`, `fx`, `optics`, `incubator`, or `meta`
-You can add more than one tag as follows:
-`tags: [core, fx]`
-### link
-The link to the resource
-### event
-In case of a conference, please, indicate the event. For instance: `event: Lambda World, Cádiz, Spain`
-
+| Field | Description |
+| ----- | ----------- |
+| `title` | The title of the resource
+| `header-image` | The image the resource will show. Set to `/img/blog-image-header.png` if you don´t have an image. |
+| `category` | Specify the category of the resource: `tutorials`, `conferences`, `videos`, `articles`, `slidedecks` (if a talk wasn't recorded and just the slide deck is available; if the talk was recorded, please, choose `category: conferences` and add the link of the corresponding slide deck in the description) |
+| tags | Here you can specify the Arrow module or modules to which the resource is related: `core`, `fx`, `optics`, `incubator`, or `meta`. You can add more than one tag as follows: `tags: [core, fx]`. |
+| link | The link to the resource |
+| event | In case of a conference, please, indicate the event. For instance: `event: Lambda World, Cádiz, Spain` |
 
 ## Books section
 This example shows how to add a new book to the **Books** section.
