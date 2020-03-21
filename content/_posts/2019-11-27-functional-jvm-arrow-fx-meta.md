@@ -1,7 +1,7 @@
 ---
 title: Arrow Fx & Arrow Meta - Functional Programming for the masses
 header-image: https://img.youtube.com/vi/DaognWtZCbs/maxresdefault.jpg
-category: conferences
+category: videos
 tags: [meta, fx]
 link: https://www.youtube.com/watch?v=DaognWtZCbs
 event: Functional JVM Meetup, Prague

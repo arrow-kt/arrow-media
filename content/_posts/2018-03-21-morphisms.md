@@ -1,7 +1,7 @@
 ---
 title: It's all about morphisms
 header-image: https://img.youtube.com/vi/Eq8dv4H3RTE/maxresdefault.jpg
-category: conferences
+category: videos
 tags: [core]
 link: https://www.youtube.com/watch?v=Eq8dv4H3RTE
 event: Voxxed Days, Vienna

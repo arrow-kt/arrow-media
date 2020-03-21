@@ -1,7 +1,7 @@
 ---
 title: "Kotlin and Arrow: the functional way"
 header-image: https://pbs.twimg.com/media/D8xN-4jWkAAceCW.jpg
-category: conferences
+category: videos
 tags: [core]
 link: https://thoughtworks.wistia.com/medias/ifra1gzrho
 event: xConf, Barcelona, Spain

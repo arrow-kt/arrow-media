@@ -1,7 +1,7 @@
 ---
 title: "ArrowFx: Functional Programming for the masses"
 header-image: https://img.youtube.com/vi/uyqqoooKpmI/maxresdefault.jpg
-category: conferences
+category: videos
 tag: [fx]
 link: https://www.youtube.com/watch?v=uyqqoooKpmI
 event: Kotliners, Budapest

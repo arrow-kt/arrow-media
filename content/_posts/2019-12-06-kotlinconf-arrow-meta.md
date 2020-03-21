@@ -1,7 +1,7 @@
 ---
 title: Keep insisting - Arrow Meta
 header-image: https://img.youtube.com/vi/n9smQNxUyBI/maxresdefault.jpg
-category: conferences
+category: videos
 tags: [meta]
 link: https://youtu.be/n9smQNxUyBI
 event: KotlinConf, Copenhagen

@@ -1,7 +1,7 @@
 ---
 title: "State of the functional ecosystem in Kotlin: Mid 2018 checkup"
 header-image: https://img.youtube.com/vi/q_1xPYQLyaU/maxresdefault.jpg
-category: conferences
+category: videos
 tags: [core, optics, fx, incubator]
 link: https://www.youtube.com/watch?v=q_1xPYQLyaU
 event: Conference for Kotliners, Budapest

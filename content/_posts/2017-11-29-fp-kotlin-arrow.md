@@ -1,7 +1,7 @@
 ---
 title: Functional Programming in Kotlin with Arrow
 header-image: https://img.youtube.com/vi/IL5XzaCMKpQ/maxresdefault.jpg
-category: conferences
+category: videos
 tags: [core]
 link: https://www.youtube.com/watch?v=IL5XzaCMKpQ
 event: Lambda World, Cádiz
