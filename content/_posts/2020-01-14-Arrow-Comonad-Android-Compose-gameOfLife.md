@@ -1,6 +1,6 @@
 ---
 title: Arrow Comonad Approach for GameOfLife with Android Compose
-header-image:
+header-image: https://user-images.githubusercontent.com/39838885/72436632-a95c6380-377f-11ea-8a31-fe0c05d49946.gif
 category: articles
 tags: [fx]
 link: https://github.com/matiaslev/ArrowComposeLifeGame/tree/master

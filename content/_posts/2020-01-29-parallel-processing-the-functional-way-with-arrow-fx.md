@@ -1,5 +1,6 @@
 ---
 title: "Kotlin Functional Programming: Parallel Processing The Functional Way with Arrow Fx"
+header-image: https://raw.githubusercontent.com/arrow-kt/arrow-site/master/docs/img/fx/arrow-fx-brand-sidebar.svg?sanitize=true
 category: articles
 tags: [fx]
 link: https://lambda.show/blog/arrow-io-parallel

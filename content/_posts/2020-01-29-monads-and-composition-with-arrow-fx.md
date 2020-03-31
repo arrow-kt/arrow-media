@@ -1,5 +1,6 @@
 ---
 title: "Kotlin Functional Programming: Monads & Composition with Arrow Fx"
+header-image: https://raw.githubusercontent.com/arrow-kt/arrow-site/master/docs/img/fx/arrow-fx-brand-sidebar.svg?sanitize=true
 category: articles
 tags: [fx]
 link: https://lambda.show/blog/arrow-io-monad
