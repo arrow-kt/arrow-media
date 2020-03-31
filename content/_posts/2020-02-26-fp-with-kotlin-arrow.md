@@ -1,5 +1,5 @@
 ---
-title: FP with Kotlin/Arrow: Monad Comprehensions & Parallel Processing
+title: "FP with Kotlin/Arrow: Monad Comprehensions & Parallel Processing"
 header-image: https://img.youtube.com/vi/nAtzuIRryuE/maxresdefault.jpg
 category: videos
 tags: [fx]

@@ -1,6 +1,5 @@
 ---
-title: Kotlin Functional Programming: Monads & Composition with Arrow Fx
-header-image: /img/blog-image-header.png
+title: "Kotlin Functional Programming: Monads & Composition with Arrow Fx"
 category: articles
 tags: [fx]
 link: https://lambda.show/blog/arrow-io-monad
