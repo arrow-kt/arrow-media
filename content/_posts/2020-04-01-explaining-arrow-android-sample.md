@@ -1,6 +1,6 @@
 ---
 title: Explaining the Arrow Android sample
-header-image: /img/blog-image-header.png
+header-image: https://blog.frankel.ch/assets/resources/imperative-functional-programming/arrow-brand.svg
 category: articles
 tags: [core]
 link: https://medium.com/default-to-open/explaining-the-arrow-android-sample-ee5c8bdfe88a
