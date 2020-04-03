@@ -1,7 +1,7 @@
 ---
 title: Arrow Meta - Enabling Functional Programming in the Kotlin Compiler
 header-image: https://img.youtube.com/vi/WKR384ZeBgk/maxresdefault.jpg
-category: conferences
+category: videos
 tags: [meta]
 link: https://www.youtube.com/watch?v=WKR384ZeBgk
 event: Lambda World, Cádiz, Spain

@@ -7,10 +7,6 @@ tab:
       category: tutorials
       url: /tutorials
 
-    - title: Conferences
-      category: conferences
-      url: /conferences
-
     - title: Videos
       category: videos
       url: /videos

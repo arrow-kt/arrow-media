@@ -1,7 +1,7 @@
 ---
 title: Architectures Using Functional Programming Concepts
 header-image: https://img.youtube.com/vi/qI1ctQ0293o/maxresdefault.jpg
-category: conferences
+category: videos
 tags: [core]
 link: https://www.youtube.com/watch?v=qI1ctQ0293o
 event: KotlinConf, San Francisco

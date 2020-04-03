@@ -1,7 +1,7 @@
 ---
 title: Kotlin for the Pragmatic Functionalist
 header-image: https://img.youtube.com/vi/s9oMED6ZikQ/maxresdefault.jpg
-category: conferences
+category: videos
 tags: [core]
 link: https://www.youtube.com/watch?v=s9oMED6ZikQ
 event: KotlinConf, San Francisco

@@ -1,7 +1,7 @@
 ---
 title: Architecting Typed FP Applications & Libraries in Kotlin with Λrrow
 header-image: https://img.youtube.com/vi/VOZZTSuDMFE/maxresdefault.jpg
-category: conferences
+category: videos
 tags: [core, fx]
 link: https://www.youtube.com/watch?v=VOZZTSuDMFE
 event: KotlinConf, Amsterdam
