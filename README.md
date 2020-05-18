@@ -2,7 +2,13 @@
 
 A showcase of tutorials, conference presentations, and other Arrow-related content.
 
-## Adding a resource
+## How to add a resource
+
+If you have a blog post, talk, or upcoming event on Arrow, please considering [opening an issue](https://github.com/arrow-kt/arrow-media/issues/new?assignees=MaureenElsberry&labels=media+resource&template=add-community-resource.md&title=%5BAdd+Media%5D) or a pull request to add to the collection.
+
+In case of creating a pull request, please finding the details described below.
+
+### Adding a resource
 
 The file needs to be placed in the `content/_posts/` folder and the date will be indicated in the filename:
 
@@ -33,7 +39,8 @@ The fields to fill are described below:
 | link | The link to the resource |
 | event | In case of a conference, please, indicate the event. For instance: `event: Lambda World, Cádiz, Spain` |
 
-## Books section
+### Books section
+
 This example shows how to add a new book to the **Books** section.
 The file needs to be placed in the `content/_books/` folder.
 
