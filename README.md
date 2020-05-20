@@ -4,13 +4,13 @@ A showcase of tutorials, conference presentations, and other Arrow-related conte
 
 ## How to add a resource
 
-If you have a blog post, talk, or upcoming event on Arrow, please considering [opening an issue](https://github.com/arrow-kt/arrow-media/issues/new?assignees=MaureenElsberry&labels=media+resource&template=add-community-resource.md&title=%5BAdd+Media%5D) or a pull request to add to the collection.
+If you have a blog post, talk, or upcoming event on Arrow, please consider [opening an issue](https://github.com/arrow-kt/arrow-media/issues/new?assignees=MaureenElsberry&labels=media+resource&template=add-community-resource.md&title=%5BAdd+Media%5D) or a pull request to add it to the collection.
 
-In case of creating a pull request, please finding the details described below.
+For pull requests, please follow the instructions described below.
 
 ### Adding a resource
 
-The file needs to be placed in the `content/_posts/` folder and the date will be indicated in the filename:
+The file needs to be placed in the `content/_posts/` folder and the date needs to be indicated in the filename:
 
 ```
 yyyy-mm-dd-<name>.md
@@ -37,7 +37,7 @@ The fields to fill are described below:
 | `category` | Specify the category of the resource: `tutorials`, `videos`, `articles`, `slidedecks` (if a talk wasn't recorded and just the slide deck is available; if the talk was recorded, please, choose `category: videos` and add the link of the corresponding slide deck in the description) |
 | tags | Here you can specify the Arrow module or modules to which the resource is related: `core`, `fx`, `optics`, `incubator`, or `meta`. You can add more than one tag as follows: `tags: [core, fx]`. |
 | link | The link to the resource |
-| event | In case of a conference, please, indicate the event. For instance: `event: Lambda World, Cádiz, Spain` |
+| event | In the case of a conference, please, indicate the event. For instance: `event: Lambda World, Cádiz, Spain` |
 
 ### Books section
 
