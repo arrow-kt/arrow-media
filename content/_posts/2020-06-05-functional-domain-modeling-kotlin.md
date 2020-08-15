@@ -1,5 +1,5 @@
 ---
-title: Arrow Fx: Functional Domain Modeling with Kotlin
+title: "Arrow Fx: Functional Domain Modeling with Kotlin"
 header-image: https://img.youtube.com/vi/6sw8GAhUJz0/maxresdefault.jpg
 
 category: videos
