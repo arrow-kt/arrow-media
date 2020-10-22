@@ -1,5 +1,5 @@
 ---
-title: "Writing a Kotlin Compiler Plugins with Arrow Meta"
+title: "Writing Kotlin Compiler Plugins with Arrow Meta"
 header-image: https://codingwithmohit.com/assets/images/talks/writing_kotlin_compiler_plugins_with_arrow_meta.jpg
 
 category: videos
