@@ -1,6 +1,6 @@
 ---
 title: "Arrow Promoted to Adopt by Technology Radar"
-header-image: https://images.app.goo.gl/nizpGSxtxUqpa1jE9
+header-image: https://static.thoughtworks.com/images/radar/2020-10/en/tech-radar-card.png
 category: articles
 tags: [core]
 link: https://www.thoughtworks.com/radar/languages-and-frameworks/arrow
