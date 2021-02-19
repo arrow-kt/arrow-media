@@ -6,4 +6,4 @@ tags: [core]
 link: https://medium.com/google-developer-experts/advanced-fp-for-the-enterprise-bee-state-4f8fd2d8098b
 ---
 
-This is the final post in a series introducing advanced FP concepts via Kotlin and Arrow. This article explores the world of Monads, and, in particular, the State type.
+This is the final post in a series written by Garth Gilmour introducing advanced FP concepts via Kotlin and Arrow. This article explores the world of Monads, and, in particular, the State type.
