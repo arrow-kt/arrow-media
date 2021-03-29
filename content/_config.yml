@@ -23,6 +23,7 @@ sass:
 #-------------------------
 plugins:
   - 'jekyll/tagging'
+  - 'jekyll-feed'
 
 # Tags plugin configuration
 tag_page_layout: tags
