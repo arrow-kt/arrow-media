@@ -1,5 +1,5 @@
 ---
-title: Functional programming in Kotlin: Exploring Arrow
+title: "Functional programming in Kotlin: Exploring Arrow"
 header-image: http://i3.ytimg.com/vi/Wojgv2MeMGU/hqdefault.jpg
 
 category: videos
