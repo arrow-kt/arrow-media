@@ -1,5 +1,5 @@
 ---
-title: Domain Model Validation In Kotlin: Part 1
+title: "Domain Model Validation In Kotlin: Part 1"
 header-image: https://miro.medium.com/max/1400/1*Xc0B4542z3WHiQ3DvLXcYg.png
 category: articles
 tags: [core]
