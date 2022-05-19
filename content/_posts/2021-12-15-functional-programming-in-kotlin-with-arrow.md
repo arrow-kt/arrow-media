@@ -1,5 +1,5 @@
 ---
-title: Functional programming in Kotlin with Arrow.kt
+title: Functional programming in Kotlin with Arrow
 header-image: https://img.youtube.com/vi/IDMmmrRhUvQ/maxresdefault.jpg
 
 category: videos
