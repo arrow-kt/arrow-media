@@ -1,5 +1,5 @@
 ---
-title: Turbocharging Kotlin: Arrow Analysis, Optics & Meta
+title: Turbocharging Kotlin: Arrow Analysis, Optics, and Meta
 header-image: https://img.youtube.com/vi/tX4nLqcW2JA/maxresdefault.jpg
 
 category: videos
